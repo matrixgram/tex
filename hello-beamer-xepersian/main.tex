@@ -1,0 +1,74 @@
+\documentclass{beamer}
+\usepackage{xepersian} % Load the xepersian package for Persian support
+
+% Set fonts for XePersian
+\settextfont{Yas} % Choose a Persian font such as Yas, IranNastaliq, etc.
+\setlatintextfont{Times New Roman}
+
+% Choose a Beamer theme
+\usetheme{CambridgeUS}
+
+% Custom Color Theme
+\usecolortheme{dove}
+\setbeamercolor{structure}{fg=darkblue} % Change the main theme color
+\setbeamercolor{frametitle}{bg=darkred, fg=white} % Customize frame title color
+\setbeamercolor{block title}{bg=orange!85!black, fg=white} % Customize block titles
+\setbeamercolor{block body}{bg=orange!10!white} % Customize block body background
+
+% Title Information
+\title[نمونه ارائه]{نمونه‌ای از ارائه بیمر با XePersian}
+\author{نام شما}
+\institute{موسسه شما}
+\date{\today}
+
+\begin{document}
+	
+	% Title Slide
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	% Outline Slide
+	\begin{frame}{فهرست مطالب}
+		\tableofcontents
+	\end{frame}
+	
+	% Section 1
+	\section{مقدمه}
+	\begin{frame}{مقدمه‌ای بر استفاده از XePersian}
+		\begin{itemize}
+			\item بسته XePersian از XeLaTeX برای پشتیبانی از زبان‌های راست به چپ استفاده می‌کند.
+			\item این بسته قابلیت‌های مناسبی برای کار با زبان فارسی دارد.
+			\item همچنین با ارائه‌های بیمر به خوبی سازگار است.
+		\end{itemize}
+	\end{frame}
+	
+	% Section 2
+	\section{ویژگی‌های بیمر}
+	\begin{frame}{ویژگی‌های بسته بیمر}
+		\begin{block}{چرا بیمر؟}
+			\begin{itemize}
+				\item مناسب برای ارائه‌های علمی
+				\item پشتیبانی از قالب‌های مختلف
+				\item قابلیت تغییر رنگ، فونت، و ساختار
+			\end{itemize}
+		\end{block}
+		
+		\begin{alertblock}{توجه}
+			برای استفاده از فونت‌های فارسی، حتماً از XeLaTeX استفاده کنید.
+		\end{alertblock}
+	\end{frame}
+	
+	% Section 3
+	\section{نتیجه‌گیری}
+	\begin{frame}{نتیجه‌گیری}
+		\begin{itemize}
+			\item بیمر ابزاری قدرتمند و انعطاف‌پذیر است.
+			\item بسته XePersian امکان ارائه‌های فارسی را فراهم می‌کند.
+		\end{itemize}
+		\bigskip
+		\centering
+		از توجه شما متشکرم!
+	\end{frame}
+	
+\end{document}
